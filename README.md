@@ -35,10 +35,10 @@ require __DIR__ . "/upload/src/WaterMark.php";
 - **app唤起支付**
 
 ```php
-$pic_path="http://p0.meituan.net/128.180/movie/4c01895cfd53e82f7c3048c407974a6b4739229.jpg"//支持绝对路径和网址
+$pic_path="http://p0.meituan.net/128.180/movie/4c01895cfd53e82f7c3048c407974a6b4739229.jpg";//支持绝对路径和网址
 $water=new \watermark\WaterMark();
 $water->text_color=[220,220,220];//虹路蓝三色比例
-$water->fontfile='./src/font/msyh.ttf';
+$water->fontfile='./static/common/font/msyh.ttf';
 $water->inter_w=50;//水印文字间隔宽
 $water->inter_h=50;//水印文字间隔宽
 $water->maker_text="合智聚成";//水印文字
