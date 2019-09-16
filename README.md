@@ -32,7 +32,6 @@ require __DIR__ . "/upload/src/WaterMark.php";
 ## 用法
 
 
-- **app唤起支付**
 
 ```php
 $pic_path="http://p0.meituan.net/128.180/movie/4c01895cfd53e82f7c3048c407974a6b4739229.jpg";//支持绝对路径和网址
