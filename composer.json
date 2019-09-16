@@ -1,0 +1,22 @@
+{
+  "name": "juchengit/watermark",
+  "type": "library",
+  "description": "This is Jucheng Alipay model",
+  "keywords" : ["Jucheng", "watermark"],
+  "homepage" : "http://www.jucheng01.net/",
+  "license" : "Apache-2.0",
+  "authors": [
+    {
+      "name": "XuChunlong",
+      "email": "574331590@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "watermark\\": "src/"
+    }
+  }
+}
